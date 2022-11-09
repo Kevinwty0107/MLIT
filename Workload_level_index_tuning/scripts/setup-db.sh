@@ -59,17 +59,17 @@ case "$subcommand" in
    
    #linux
    
-   #sudo apt update;
-   #sudo apt install postgresql postgresql-contrib postgresql-client postgresql-client-common libpq-dev;
+   sudo apt update;
+   sudo apt install postgresql postgresql-contrib postgresql-client postgresql-client-common libpq-dev;
 
    
    #MacOS
     
-   brew update
-   brew install postgresql
-   brew install libpq
+  #  brew update
+  #  brew install postgresql
+  #  brew install libpq
 
-   python3 -m pip install psycopg2; # TODO virtualenv? 
+   python3 -m pip sinstall psycopg2; # TODO virtualenv? 
                                      # TODO rebuild http://initd.org/psycopg/articles/2018/02/08/psycopg-274-released/
 
    

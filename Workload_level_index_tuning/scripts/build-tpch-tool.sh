@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod u+x ...
+chmod u+x .
 # Retrieves and builds tpch tools dbgen and qgen
 
 TPCH_DIR='../tpch-tool' 
